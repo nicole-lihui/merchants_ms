@@ -71,7 +71,7 @@ class GoodsListPageState
   // ];
 
   Future _onRefresh() async {
-    await Future.delayed(Duration(seconds: 2), () {
+    await Future.delayed(Duration(seconds: 0), () {
       setState(() async {
         _page = 1;
         await presenter.search(Constant.shopId, _index + 1, true, true);
@@ -81,7 +81,7 @@ class GoodsListPageState
   }
 
   Future _loadMore() async {
-    await Future.delayed(Duration(seconds: 2), () {
+    await Future.delayed(Duration(seconds: 0), () {
       setState(() async {
         await presenter.search(Constant.shopId, _index + 1, true, true);
         _page++;

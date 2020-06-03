@@ -28,7 +28,7 @@ class _AccountRecordListPageState extends State<AccountRecordListPage> {
               color: ThemeUtils.getStickyHeaderColor(context),
               padding: const EdgeInsets.only(left: 16.0),
               height: 34.0,
-              child: Text('2020/02/0${index + 1}'),
+              child: Text('2020/05/0${index + 1}'),
             ),
             content: _buildItem(index),
           );

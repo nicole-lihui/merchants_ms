@@ -40,7 +40,7 @@ class _AccountManagerPageState extends State<AccountManagerPage> {
           ),
           ClickItem(
               title: '绑定账号',
-              content: '15000000000',
+              content: '15116660781',
           ),
         ],
       ),

@@ -35,7 +35,7 @@ class _WithdrawalResultPageState extends State<WithdrawalResultPage> {
             ),
             Gaps.vGap8,
             Text(
-              '2020-02-21 15:20:10',
+              '2020-05-31 15:20:10',
               style: Theme.of(context).textTheme.subtitle,
             ),
             Gaps.vGap8,
